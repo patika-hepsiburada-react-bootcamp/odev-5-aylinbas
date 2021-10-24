@@ -1,0 +1,42 @@
+
+.todosContainer{
+    text-align: left;
+  }
+
+  .todoList{
+    display: inline-block;
+    margin-left: 10%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .todoItem{
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    display: inline-block;
+    margin: 4px;
+    padding-left: 4px;
+    border: 2px solid;
+    border-radius: 0.25rem;
+    text-align: left;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  
+.passive {
+    text-decoration: line-through;
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+  }
+  
+  .active{
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+  }
+  
