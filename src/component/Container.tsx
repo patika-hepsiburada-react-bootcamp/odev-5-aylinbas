@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect } from "react";
 import { useTodo } from "../context/TodosContext";
 import AddNewTodo from "./AddNewTodo";
